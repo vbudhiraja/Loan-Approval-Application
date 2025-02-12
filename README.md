@@ -35,6 +35,28 @@ The correlation matrix provides insights into the relationships between numerica
 
 The correlation analysis indicates that Credit History has a strong positive correlation (0.5356) with Loan Amount, suggesting that applicants with a good credit history are more likely to receive higher loan amounts. On the other hand, Applicant Income shows a near-zero correlation (-0.0252) with Loan Amount, implying that income alone does not significantly determine the approved loan amount. This suggests that while income is considered, other factors such as creditworthiness and repayment history play a more crucial role in loan approval decisions.
 
+# Baseline model selection
+
+For the first part of the problem, the target variable Loan_Status is categorical (Y (1) for approved, N (0) for rejected), this is a classification problem. The goal is to predict whether a loan will be approved or not based on applicant attributes. 
+A baseline model should be simple yet effective for benchmarking. A Logistic Regression model is a strong initial choice.
+
+For the second part of the problem, Loan Amount is a continuous numerical variable, this is a regression problem rather than a classification problem. The goal is to predict how much loan amount an applicant is likely to receive based on the features available in the dataset. In this case I choose the  Random Forest Regressor as the baseline model. It will handle the non-linear relationship between the input features and loan amount effectively, as it appears to be the case based on the data analysis.
+
+# Evaluation Metric Selection
+
+
+Evaluation Metric Selection for classification part of the problem
+    Train Time
+    Train Accuracy
+    Test Accuracy
+    Precision
+    F1 Score
+    Recall  
+
+Evaluation Metric Selection for regression part of the problem
+    Mean Absolute Error (MAE)
+    Mean Squared Error (MSE)
+    R2 Score: Measures how well the model explains the variance in loan amounts. Closer to 1 means a better fit.
 
 # Summary
 Out of all loan applications, 69.43% were approved, while 30.57% were rejected. This indicates that a 2/3 of applicants successfully secured a loan. The approval trend suggests that applicants with favorable credit history, stable employment, and strong income profiles are more likely to be approved.
