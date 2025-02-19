@@ -9,7 +9,8 @@ Data source: Kaggle's Loan Dataset.
 
 <b>Expected results:</b> Identification of the best-performing classification and regression models, providing insights into loan approval and amounts. 
 
-<b>Importance:</b> This is important for helping buyers plan their purchases and negotiations based on loan outcomes.
+<b>Importance:</b> This is important for helping buyers plan their purchases and negotiations based on loan outcomes. For financial insttutions to determine what features are important and ensure data collection is accurate for those features. For applicants, again what features are important and ensure that they provide the best support for those elements.
+
 
 # About Data Set
 
@@ -60,3 +61,5 @@ Evaluation Metric Selection for regression part of the problem
 
 # Summary
 Out of all loan applications, 69.43% were approved, while 30.57% were rejected. This indicates that a 2/3 of applicants successfully secured a loan. The approval trend suggests that applicants with favorable credit history, stable employment, and strong income profiles are more likely to be approved.
+
+The most significant factor in loan approval is credit history. From Bank/Financial Institution perspective they need to ensure they have most recent credit history to ensure accurate approvals. Applicants need to maintain good credit history. A higher increases the chances of approval and adding co-applicant income will help.
