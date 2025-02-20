@@ -14,19 +14,19 @@ Data source: Kaggle's Loan Dataset.
 
 # About Data Set
 
-We started with 614 rows of the data. After cleaning and handling null values our dataset consists of 592 loan applications, with various numerical and categorical features influencing loan approval decisions.
+We started with 614 rows of the data. After cleaning and handling null values our dataset consists of 592 loan applications. After imputing the values for Gender and Married columns we can use all the 614 rows.
 
-<b>Gender Distribution:</b> The dataset consists predominantly of male applicants (470 out of 592).
+<b>Gender Distribution:</b> The dataset consists predominantly of male applicants (502 out of 614).
 
-<b>Marital Status:</b> Most applicants are married (384 out of 592), indicating that marital status might be a common factor in loan applications.
+<b>Marital Status:</b> Most applicants are married (401 out of 614), indicating that marital status might be a common factor in loan applications.
 
-<b>Education Level:</b> The majority of applicants are graduates (465 out of 592), suggesting a potential link between education and loan approval.
+<b>Education Level:</b> The majority of applicants are graduates (480 out of 614), suggesting a potential link between education and loan approval.
 
-<b>Self-Employment Status:</b> A large proportion of applicants are not self-employed (482 out of 561 recorded entries), implying that salaried employees may be more common in loan applications.
+<b>Self-Employment Status:</b> A large proportion of applicants are not self-employed (500 out of 614 recorded entries), implying that salaried employees may be more common in loan applications.
 
-<b>Property Area:</b> Loans are distributed across urban, semi-urban, and rural areas, with the highest number of applications coming from semi-urban areas (228 out of 592).
+<b>Property Area:</b> Loans are distributed across urban, semi-urban, and rural areas, with the highest number of applications coming from semi-urban areas (233 out of 614).
 
-<b>Loan Approval Rate:</b> The dataset shows a 69.43% approval rate (411 approved applications), while 30.57% of applications (181) were rejected.
+<b>Loan Approval Rate:</b> The dataset shows a 69% approval rate (422 approved applications), while 31% of applications (192) were rejected.
 
 # Data preperation and transformation
 
