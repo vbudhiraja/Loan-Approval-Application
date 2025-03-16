@@ -78,7 +78,7 @@ Based on a balance of test accuracy, precision, recall, and F1 score, Logistic R
 
 # Regression problem to predict approved amount
 
-For the regression problem to predict the approved amount, we considered multiple classification models—Logistic Regression, Decision Tree, K-Nearest Neighbors (KNN), and Random Forest (RForest)—to compare their performance. The evaluation metric used was test accuracy, as the models were initially treated as classification problems, likely due to categorical target labels. However, for a true regression problem, metrics such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), and R² (coefficient of determination) should be considered.
+For the regression problem to predict the approved amount, we considered multiple classification models—Logistic Regression, Decision Tree, K-Nearest Neighbors (KNN), and Random Forest (RForest)—to compare their performance. For the true regression problem evaluation metrics such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), and R² (coefficient of determination) should be considered.
 
 Evaluation Metric Selection for regression part of the problem
 
